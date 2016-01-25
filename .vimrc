@@ -1,6 +1,9 @@
 "Enable Syntax Highlight
 syntax on
 
+"Enable line numbering
+set number
+
 "Set Color Scheme
 colorscheme blue
 
