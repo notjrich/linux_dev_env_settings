@@ -21,6 +21,7 @@ call vundle#begin()
 "let vundle manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'mileszs/ack.vim'
 
 "All of your plugins must be added before the next line
 call vundle#end()
