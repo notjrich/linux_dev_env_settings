@@ -21,12 +21,7 @@ call vundle#begin()
 "let vundle manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdtree'
 
 "All of your plugins must be added before the next line
 call vundle#end()
 filetype plugin indent on
-
-"Start NERDtree
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
